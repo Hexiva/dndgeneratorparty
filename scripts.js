@@ -532,22 +532,22 @@ var Kobold = {
 
 var General = {
   traits: ["I  can find common ground between the fiercest enemies, empathizing with them and always working toward peace.", "I  see omens in  every event and action. The gods try to speak to  us, we just need to listen.", "Nothing can shake my optimistic attitude.", "I fall in and out of love easily, and am always pursuing someone.", "I  have a joke for every occasion, especially occasions where humor is inappropriate.", "Flattery is my preferred trick for getting what I want.","Sarcasm and insults are  my weapons of choice."],
-  ideals: ["Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings."],
+  ideals: ["Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.", "Friendship. Material goods come and go. Bonds of friendship last forever.", "Aspiration. I'm determined to  make something of myself."],
   bonds: [],
   flaws: ["I judge others harshly, and myself even more severely.", "I am  inflexible in  my thinking.", "I  am suspicious of strangers and expect the worst of them.","Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.",]
 }
 
 var Acolyte = {
   traits: ["I idolize a particular hero of my faith, and constantly refer to that person's deeds and example.", "I quote (or misquote) sacred texts and proverbs in almost every situation.", "I  am tolerant of other faiths and respect the worship of other gods.", "I  am intolerant of other faiths and condemn the worship of other gods.", "I've enjoyed fine food, drink, and high society among my temple's elite. Rough living grates on me.", "I've spent so long in the temple that I  have little practical experience dealing with people in the outside world."],
-  ideals: ["I  hope to one day rise to the top of my fa ith's religious hierarchy."],
+  ideals: ["Power. I  hope to one day rise to the top of my fa ith's religious hierarchy."],
   bonds: ["I would die to recover an ancient relic of my faith that was lost long ago.","I will someday get revenge on the corrupt temple hierarchy who branded me a heretic.", "I owe my life to the priest who took me in when my parents died.", "I will do anything to protect the temple where I served","I seek to preserve a sacred text that my enemies consider heretical and seek to destroy."],
   flaws: ["I put too much trust  in those who wield power within my temple's hierarchy.", "My piety sometimes leads me to blindly trust those that profess faith in my god."]
 }
 
 var Charlatan = {
   traits: ["I  can find common ground between the fiercest enemies, empathizing with them and always working toward peace.", "I  see omens in  every event and action. The gods try to speak to  us, we just need to listen.", "Nothing can shake my optimistic attitude."],
-  ideals: ["Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.","Fairness. I  never target people who can't afford to lose a few coins."],
-  bonds: [],
+  ideals: ["Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.","Fairness. I  never target people who can't afford to lose a few coins.", "Charity. I distribute the money I acquire to the people who really need it.", "Charity. I distribute the money I acquire to the people who really need it.", "Creativity. I  never run the same con twice."],
+  bonds: ["I  fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about."],
   flaws: ["I judge others harshly, and myself even more severely.", "I am  inflexible in  my thinking.", "I  am suspicious of strangers and expect the worst of them.","Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.",]
 }
 
