@@ -532,9 +532,9 @@ var Kobold = {
 //BACKGROUND TRAITS ETCETERA
 
 var General = {
-  traits: ["I  can find common ground between the fiercest enemies, empathizing with them and always working toward peace.", "I  see omens in  every event and action. The gods try to speak to  us, we just need to listen.", "Nothing can shake my optimistic attitude.", "I fall in and out of love easily, and am always pursuing someone.", "I  have a joke for every occasion, especially occasions where humor is inappropriate.", "Flattery is my preferred trick for getting what I want.","Sarcasm and insults are  my weapons of choice.", "I  always have a plan for what to do when things go wrong.", "I am always calm, no  matter what the situation. I never raise my voice or let my emotions control me.", "I would rather make a  new friend than a  new enemy","I  am incredibly slow to trust. Those who seem the fairest often have the most to hide.",],
-  ideals: ["Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.", "Friendship. Material goods come and go. Bonds of friendship last forever.", "Aspiration. I'm determined to  make something of myself."],
-  bonds: ["I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me.","A powerful person killed someone I  love. Some day soon, I'll  have my revenge."],
+  traits: ["I  can find common ground between the fiercest enemies, empathizing with them and always working toward peace.", "I  see omens in  every event and action. The gods try to speak to  us, we just need to listen.", "Nothing can shake my optimistic attitude.", "I fall in and out of love easily, and am always pursuing someone.", "I  have a joke for every occasion, especially occasions where humor is inappropriate.", "Flattery is my preferred trick for getting what I want.","Sarcasm and insults are  my weapons of choice.", "I  always have a plan for what to do when things go wrong.", "I am always calm, no  matter what the situation. I never raise my voice or let my emotions control me.", "I would rather make a  new friend than a  new enemy","I  am incredibly slow to trust. Those who seem the fairest often have the most to hide.","Nobody stays angry at me or around me for long, since I can defuse any amount of tension.","I'll settle for nothing less than perfection.", "When I set my mind to something, I follow through no matter what gets in my way."],
+  ideals: ["Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.", "Friendship. Material goods come and go. Bonds of friendship last forever.", "Aspiration. I'm determined to  make something of myself.", "Honesty. Art should reflect the soul; it should come from within and reveal who we really are."],
+  bonds: ["I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me.","A powerful person killed someone I  love. Some day soon, I'll  have my revenge.", "Someone I loved died because of a mistake I  made. That will never happen again."],
   flaws: ["I judge others harshly, and myself even more severely.", "I am  inflexible in  my thinking.", "I  am suspicious of strangers and expect the worst of them.","Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.","I  can't resist a pretty face."]
 }
 
@@ -546,6 +546,8 @@ var Acolyte = {
 }
 
 var Charlatan = {
+  special: ["I cheat at games of chance.", "I shave coins or forge documents.", "I  insinuate myself into people's lives to prey on their weakness and secure their fortunes.","I put on new identities like clothes.", "I run sleight-of-hand cons on street corners.", "I convince people that worthless junk is worth their hard-earned money."],
+  equipment: ["ten false potion bottles filled with colored water", "a set of weighted dice", "a deck of marked cards", "a signet ring of an imaginary duke"],
   traits: ["I  can find common ground between the fiercest enemies, empathizing with them and always working toward peace.", "I  see omens in  every event and action. The gods try to speak to  us, we just need to listen.", "Nothing can shake my optimistic attitude."],
   ideals: ["Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.","Fairness. I  never target people who can't afford to lose a few coins.", "Charity. I distribute the money I acquire to the people who really need it.", "Charity. I distribute the money I acquire to the people who really need it.", "Creativity. I  never run the same con twice."],
   bonds: ["I  fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.", "I owe everything to my mentor - a horrible person who's probably rotting in jail somewhere.", "Somewhere out there, I  have a child who doesn't know me. I'm  making the world better for him or her.", "I  swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself."],
@@ -553,30 +555,58 @@ var Charlatan = {
 }
 
 var Lawful = {
-  ideals: ["Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld.",]
+  ideals: ["Tradition. The ancient traditions of worship and sacrifice must be preserved and upheld.","I have a strong sense of fair play and always try to find the most equitable solution to arguments.","Fairness. No one should get preferential treatment before the law, and no one is above the law."]
 }
 
 var Good = {
-  ideals: ["Charity. I  always try to help those in  need, no matter what the personal cost."],
-  bonds: ["Everything I do is  for the common people."]
+  ideals: ["Charity. I  always try to help those in  need, no matter what the personal cost.", "Redemption. There's a spark of good in everyone.", "Respect. People deserve to be treated with dignity and respect."],
+  bonds: ["Everything I do is  for the common people.","I protect those who cannot protect themselves."],
+  traits: ["If someone is in trouble, I'm always ready to lend help."]
 }
 
 var Chaotic = {
   traits: ["I'm a born gambler who can't resist taking a risk for a potential payoff.", "I lie about almost everything,  even when there's no good reason to.", "I  keep multiple holy symbols on  me and invoke whatever deity might come in useful at any given moment.", "I  pocket anything I  see that might have some value.", "I  don't  pay attention to the risks in a situation. Never tell me the odds.", "The best way to get me to do something is to tell me  I can't do it.","I  blow up at the slightest insult.",],
-  ideals: ["Change. We must help bring about the changes the gods are constantly working in the world.", "Independence. I  am a free spirit-no one tells me what to do.", "Freedom. Chains are  meant to be broken,  as  are those who would forge them."]
+  ideals: ["Change. We must help bring about the changes the gods are constantly working in the world.", "Independence. I  am a free spirit-no one tells me what to do.", "Freedom. Chains are  meant to be broken,  as  are those who would forge them.", "Creativity. The world is  in need of new ideas and bold action.","Freedom. Tyrants must not be allowed to oppress the people."],
+  flaws: ["If there's a plan, I'II forget it. If I don't forget it, I'II ignore it.", "I have trouble keeping my true fe elings hidden. My sharp tongue lands me in trouble.", "Despite my best efforts, I  am unreliable to my friends."]
 }
 
 var Evil = {
   ideals: ["Greed. I will do whatever it takes to become wealthy.",]
+  flaws: ["Secretly, I  believe that things would be better if I  were a tyrant lording over the land."]
 }
 
 var Neutral = {
-  ideals: ["People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care."]
+  ideals: ["People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care.", "People. I like seeing the smiles on  people's faces when I  perform. That's all that matters.",]
 }
 
 var Criminal = {
+  special: ["Blackmailer", "Burglar", "Enforcer", "Fence", "Highway robber", "Hired killer", "Pickpocket", "Smuggler"],
   traits: ["The first thing I do in a  new place is  note the locations of everything valuable-or where such things could be hidden.",],
-  ideals: ["Honor. I don't steal from others in the trade.","Charity. I  steal from  the wealthy so that I can help people in need.",]
+  ideals: ["Honor. I don't steal from others in the trade.","Charity. I  steal from  the wealthy so that I can help people in need.",],
+  bonds: ["I'm trying to pay off an old debt I owe to a generous benefactor.", "My ill-gotten gains go to support my family.", "Something important was taken from me, and I aim to steal it back.","I will become the greatest thief that ever lived.","I'm guilty of a terrible crime. I  hope I can redeem myself for it.",],
+  flaws: ["When I  see something valuable, I can't think about anything but how to steal it.", "When faced with a choice between money and my friends, I  usually choose the money.","I  have a "tell" that reveals when I'm lying.","I turn tail and run when things look bad.", "An innocent person is in prison for a crime that I committed. I'm okay with that."]
+}
+
+var Entertainer = {
+  equipment: ["bagpipes", "drum", "dulcimer", "flute", "lute", "lyre", "horn", "pan flute", "shawm", "viol", "violin", "guitar"],
+  special: ["Actor", "Dancer", "Fire-eater", "Jester", "Juggler", "Instrumentalist", "Poet", "Singer", "Storyteller", "Tumbler"],
+  traits: ["I know a story relevant to almost every situation.", "Whenever I come to a new place, I collect local rumours and spread gossip.", "I'm a hopeless romantic, always searching for that 'special someone.'","I love a good insult, even one directed at me.", "I get bitter if I'm not the center of attention", "I change my mood or my mind as quickly as I change key in a song."],
+  ideals: ["Beauty. When I  perform, I  make the world better than it was.","Tradition. The stories, legends, and songs of the past must never be forgotten, for they teach us who we are.","Greed. I'm only in it for the money and fame.", ],
+  bonds:  ["My instrument is my most treasured possession, and it reminds me of someone I  love.", "Someone stole my precious instrument, and someday I'll get it back.", "I want to be famous, whatever it takes.", "I  idolize a hero of the old tales and measure my deeds against that person's.", "I will do anything to  prove myself superior to my hated rival.", "I would do  anything for the other members of my old troupe.",],
+  flaws: ["I'll do anything to win fame  and renown.", "I'm a sucker for a pretty face.", "A scandal prevents me from ever going home again. That kind of trouble seems to follow me around.", "I once satirized a noble who still wants my head. It was a mistake that I  will likely repeat.",]
+}
+
+var FolkHero = {
+  equipment: ["alchemist's supplies", "brewer's supplies", "calligrapher's supplies", "carpenter's tools", "cartographer's tools", "cobbler's tools", "cook's utensils", "glassblower's tools", "jeweler's tools", "leatherworker's tools", "mason's tools", "painter's supplies", "potter's tools", "smith's tools", "tinker's tools", "weaver's tools", "woodcarver's tools", ],
+  special: ["I stood up to a tyrant's agents.", "I saved people during a natural disaster.", "I stood alone against a terrible monster.", "I  stole from a corrupt merchant to help the poor.","I led a militia to fight off an invading army.","I  broke into a tyrant's castle and stole weapons to arm the people.","I trained the peasantry to use farm implements as weapons against a tyrant's soldiers.","A lord  rescinded an  unpopular decree after I  led a symbolic act of protest against it.", "A " + generate(["celestial", "fey", "metallic dragon", "genie",]) + " gave me a blessing or revealed my secret origin.", "Recruited into a lord's army, I  rose to leadership and was commended for my heroism."],
+  traits: ["I judge people by their actions, not their words.","If someone is in trouble, I'm always ready to lend help.", "I'm confident in my own abilities and do what I can to instill confidence in others.", "Thinking is for other people. I prefer action.","I misuse long words in an attempt to sound smarter.","I  get bored easily. When am  I going to get on with my destiny?"],
+  ideals: ["Might. If I become strong, I can take what I want­what I deserve.","Sincerity. There's no  good in pretending to be something I'm  not.", "Destiny. Nothing and no one can steer me away from my higher calling."],
+  bonds: ["I have a family,  but I  have no idea where they are. One day, I  hope to see them again.","I worked the land, I  love the land, and I will protect the land.","A proud noble once gave me a horrible beating, and I will take my revenge on any bully I encounter.","My tools are symbols of my past life, and I carry them so that I will never forget my roots.","I wish my childhood sweetheart had come with me to pursue my destiny."],
+  flaws: ["The tyrant who rules my land will stop at nothing to see my killed.","I'm convinced of the significance of my destiny, and blind to my shortcomings and the risk of failure.", "The people who knew me when I was young know my shameful secret, so I can never go home again.","I have a weakness for the vices of the city, especially hard drink.","  have trouble trusting in my allies."]
+}
+
+var GuildArtisan = {
+  special: ["Alchemists and apothecaries","Armorers, locksmiths, and finesmiths","Brewers, distillers, and vintners","Calligraphers, scribes, and scriveners","Carpenters, roofers, and plasterers","Cartographers, surveyors, and chart·makers","Cobblers and shoemakers","Cooks and bakers","Glassblowers and glaziers","Jewelers and gem cutters","Leatherworkers, skinners, and tanners",]
 }
 
     var char1 = {
