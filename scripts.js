@@ -528,13 +528,14 @@ var Kobold = {
 }
 
 
+
 //BACKGROUND TRAITS ETCETERA
 
 var General = {
-  traits: ["I  can find common ground between the fiercest enemies, empathizing with them and always working toward peace.", "I  see omens in  every event and action. The gods try to speak to  us, we just need to listen.", "Nothing can shake my optimistic attitude.", "I fall in and out of love easily, and am always pursuing someone.", "I  have a joke for every occasion, especially occasions where humor is inappropriate.", "Flattery is my preferred trick for getting what I want.","Sarcasm and insults are  my weapons of choice."],
+  traits: ["I  can find common ground between the fiercest enemies, empathizing with them and always working toward peace.", "I  see omens in  every event and action. The gods try to speak to  us, we just need to listen.", "Nothing can shake my optimistic attitude.", "I fall in and out of love easily, and am always pursuing someone.", "I  have a joke for every occasion, especially occasions where humor is inappropriate.", "Flattery is my preferred trick for getting what I want.","Sarcasm and insults are  my weapons of choice.", "I  always have a plan for what to do when things go wrong.", "I am always calm, no  matter what the situation. I never raise my voice or let my emotions control me.", "I would rather make a  new friend than a  new enemy","I  am incredibly slow to trust. Those who seem the fairest often have the most to hide.",],
   ideals: ["Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.", "Friendship. Material goods come and go. Bonds of friendship last forever.", "Aspiration. I'm determined to  make something of myself."],
-  bonds: [],
-  flaws: ["I judge others harshly, and myself even more severely.", "I am  inflexible in  my thinking.", "I  am suspicious of strangers and expect the worst of them.","Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.",]
+  bonds: ["I come from a noble family, and one day I'll reclaim my lands and title from those who stole them from me.","A powerful person killed someone I  love. Some day soon, I'll  have my revenge."],
+  flaws: ["I judge others harshly, and myself even more severely.", "I am  inflexible in  my thinking.", "I  am suspicious of strangers and expect the worst of them.","Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.","I  can't resist a pretty face."]
 }
 
 var Acolyte = {
@@ -547,8 +548,8 @@ var Acolyte = {
 var Charlatan = {
   traits: ["I  can find common ground between the fiercest enemies, empathizing with them and always working toward peace.", "I  see omens in  every event and action. The gods try to speak to  us, we just need to listen.", "Nothing can shake my optimistic attitude."],
   ideals: ["Aspiration. I seek to prove myself worthy of my god's favor by matching my actions against his or her teachings.","Fairness. I  never target people who can't afford to lose a few coins.", "Charity. I distribute the money I acquire to the people who really need it.", "Charity. I distribute the money I acquire to the people who really need it.", "Creativity. I  never run the same con twice."],
-  bonds: ["I  fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about."],
-  flaws: ["I judge others harshly, and myself even more severely.", "I am  inflexible in  my thinking.", "I  am suspicious of strangers and expect the worst of them.","Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.",]
+  bonds: ["I  fleeced the wrong person and must work to ensure that this individual never crosses paths with me or those I care about.", "I owe everything to my mentor - a horrible person who's probably rotting in jail somewhere.", "Somewhere out there, I  have a child who doesn't know me. I'm  making the world better for him or her.", "I  swindled and ruined a person who didn't deserve it. I seek to atone for my misdeeds but might never be able to forgive myself."],
+  flaws: ["I judge others harshly, and myself even more severely.", "I am  inflexible in  my thinking.", "I  am suspicious of strangers and expect the worst of them.","Once I pick a goal, I become obsessed with it to the detriment of everything else in my life.","I'm always in debt. I spend my ill-gotten gains on decadent luxuries faster than I bring them in...", "I'm convinced that no one could ever fool  me the way I fool others.", "I'm too greedy for my own good. I can't resist taking a risk if there's money involved.", "I can't resist swindling people who are more powerful than me.", "I  hate to admit it and will hate myself for  it, but I'll run and preserve my own hide if the going gets tough."]
 }
 
 var Lawful = {
@@ -561,8 +562,21 @@ var Good = {
 }
 
 var Chaotic = {
-  traits: ["I'm a born gambler who can't resist taking a risk for a potential payoff.", "I lie about almost everything,  even when there's no good reason to.", "I  keep multiple holy symbols on  me and invoke whatever deity might come in useful at any given moment.", "I  pocket anything I  see that might have some value."],
-  ideals: ["Change. We must help bring about the changes the gods are constantly working in the world.", "Independence. I  am a free spirit-no one tells me what to do.",]
+  traits: ["I'm a born gambler who can't resist taking a risk for a potential payoff.", "I lie about almost everything,  even when there's no good reason to.", "I  keep multiple holy symbols on  me and invoke whatever deity might come in useful at any given moment.", "I  pocket anything I  see that might have some value.", "I  don't  pay attention to the risks in a situation. Never tell me the odds.", "The best way to get me to do something is to tell me  I can't do it.","I  blow up at the slightest insult.",],
+  ideals: ["Change. We must help bring about the changes the gods are constantly working in the world.", "Independence. I  am a free spirit-no one tells me what to do.", "Freedom. Chains are  meant to be broken,  as  are those who would forge them."]
+}
+
+var Evil = {
+  ideals: ["Greed. I will do whatever it takes to become wealthy.",]
+}
+
+var Neutral = {
+  ideals: ["People. I'm loyal to my friends, not to any ideals, and everyone else can take a trip down the Styx for all I care."]
+}
+
+var Criminal = {
+  traits: ["The first thing I do in a  new place is  note the locations of everything valuable-or where such things could be hidden.",],
+  ideals: ["Honor. I don't steal from others in the trade.","Charity. I  steal from  the wealthy so that I can help people in need.",]
 }
 
     var char1 = {
