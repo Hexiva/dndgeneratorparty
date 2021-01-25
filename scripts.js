@@ -543,7 +543,11 @@ var Acolyte = {
 }
 
 var Lawful = {
-  ideals: []
+  ideals: ["The ancient traditions of worship and sacrifice must be preserved and upheld.",]
+}
+
+var Good = {
+  ideals: ["I  always try to help those in  need, no matter what the personal cost."]
 }
 
     var char1 = {
