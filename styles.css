@@ -6,44 +6,49 @@ body {
 
 #char1 {
   display:none;
-  float: left;
   border: 1px #FF0 solid;
   background: #222;
   padding: 5px;
   width: 180px;
+  float: left;
 }
 #line1 {
-  width:421px;
+  width:625px;
   margin:auto;
 }
 
 #char2 {
   display:none;
-  float: right;
   border: 1px #FF0 solid;
   background: #222;
   padding: 5px;
   width: 180px;
+  float: left;
+  margin-left:20px;
+
 }
 
 #line2 {
-  width:421px;
+  width:625px;
   margin:auto;
-  margin-top:348px;
+  margin-top: 447px;
+
 }
 
 #char3 {
   display:none;
-  float: left;
   border: 1px #FF0 solid;
   background: #222;
   padding: 5px;
   width: 180px;
+  float:left;
+  margin-left:20px;
+
 }
 
 #char4 {
   display:none;
-  float: right;
+  float: left;
   border: 1px #FF0 solid;
   background: #222;
   padding: 5px;
@@ -52,10 +57,10 @@ body {
 
 #char5 {
   display:none;
-  margin:auto;
-  margin-top:695px;
   border: 1px #FF0 solid;
   background: #222;
   padding: 5px;
   width: 180px;
+  margin-left:auto;
+
 }

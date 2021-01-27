@@ -571,7 +571,7 @@ var Chaotic = {
 }
 
 var Evil = {
-  ideals: ["Greed. I will do whatever it takes to become wealthy.",]
+  ideals: ["Greed. I will do whatever it takes to become wealthy.",],
   flaws: ["Secretly, I  believe that things would be better if I  were a tyrant lording over the land."]
 }
 
@@ -584,7 +584,7 @@ var Criminal = {
   traits: ["The first thing I do in a  new place is  note the locations of everything valuable-or where such things could be hidden.",],
   ideals: ["Honor. I don't steal from others in the trade.","Charity. I  steal from  the wealthy so that I can help people in need.",],
   bonds: ["I'm trying to pay off an old debt I owe to a generous benefactor.", "My ill-gotten gains go to support my family.", "Something important was taken from me, and I aim to steal it back.","I will become the greatest thief that ever lived.","I'm guilty of a terrible crime. I  hope I can redeem myself for it.",],
-  flaws: ["When I  see something valuable, I can't think about anything but how to steal it.", "When faced with a choice between money and my friends, I  usually choose the money.","I  have a "tell" that reveals when I'm lying.","I turn tail and run when things look bad.", "An innocent person is in prison for a crime that I committed. I'm okay with that."]
+  flaws: ["When I  see something valuable, I can't think about anything but how to steal it.", "When faced with a choice between money and my friends, I  usually choose the money.", "I  have a 'tell' that reveals when I'm lying.","I turn tail and run when things look bad.", "An innocent person is in prison for a crime that I committed. I'm okay with that."],
 }
 
 var Entertainer = {
@@ -610,7 +610,7 @@ var GuildArtisan = {
   traits: ["I'm a snob who looks down on those who can't appreciate fine art.","I always want to know how things work and what makes people tick.","I'm  rude to people who lack my commitment to hard work and fair play.","I  like to talk at length about my profession.","I don't part with my money easily and will haggle tirelessly to get the best deal possible.","I'm well known for my work, and I want to  make sure everyone appreciates it. I'm  always taken aback when people haven't heard of me."],
   ideals: ["Generosity. My talents were given to me  so that I could use them to benefit the world.","Freedom. Everyone should be free to pursue his or her own livelihood.","Greed. I'm only in  it for the money.","Aspiration. I work hard to be the best there  is  at my craft."],
   bonds: ["The workshop where I  learned my trade is the most important place in the world to me.", "I created a great work for someone, and then found them unworthy to receive it. I'm still looking for someone worthy.", "I owe my guild a great debt for forging me into the person I am today.", "I  pursue wealth to secure someone's love.", "One day  I will return to my guild and prove that I  am the greatest artisan of them all.", "I will get revenge on the evil forces that destroyed my place of business and ruined my livelihood."],
-  flaws: ["I'll do anything to get my hands on something rare or priceless.", "I'm quick to assume that someone is trying to cheat me.", "No one must ever learn that I  once stole money from guild coffers.", "I'm never satisfied with what I  have - I always want more." "I would kill to acquire a noble title.", "I'm  horribly jealous of anyone who can outshine my handiwork. Everywhere I  go, I'm  surrounded by rivals."]
+  flaws: ["I'll do anything to get my hands on something rare or priceless.", "I'm quick to assume that someone is trying to cheat me.", "No one must ever learn that I  once stole money from guild coffers.", "I'm never satisfied with what I  have - I always want more.", "I would kill to acquire a noble title.", "I'm  horribly jealous of anyone who can outshine my handiwork. Everywhere I  go, I'm  surrounded by rivals."],
 }
 
 var Hermit = {
